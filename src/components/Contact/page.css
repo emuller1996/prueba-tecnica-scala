@@ -1,0 +1,18 @@
+.contact-form-input {
+    padding: 15px 5px;
+    background: none;
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #e4d5b5;
+}
+
+.contact-form-input:active {
+
+    box-shadow: none;
+}
+.contact-form-input:focus {
+    border-bottom: 2px solid #e4b558;
+
+    background-color: transparent;
+    box-shadow: none;
+}

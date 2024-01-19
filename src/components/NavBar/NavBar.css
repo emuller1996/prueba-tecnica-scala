@@ -1,0 +1,153 @@
+.header_section {
+    width: 100%;
+    float: left;
+    background-image: url(../images/hero/hero.jpg);
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 0px 20px 0px;
+    margin-bottom: 12em;
+}
+
+.header_section::after {
+    border-bottom: 4px solid rgb(255, 203, 59);
+
+}
+
+@media only screen and (max-width: 944) {
+    .header_section {
+        height: 10vh;
+        width: 100%;
+
+    }
+
+}
+
+
+
+.btn-appointment {
+    padding: 0.9em;
+    background-color: rgb(29, 255, 180);
+    font-weight: 600;
+
+}
+
+
+.logo_nabvar {
+    width: 150px;
+    filter: hue-rotate(120deg);
+}
+
+/* CSS */
+.btn-appointment {
+    align-items: center;
+    background-color: rgb(10, 192, 162);
+    border: 2px solid rgb(10, 192, 162);
+    font-size: 0.7em;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-flex;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-appointment:focus {
+    color: #171e29;
+}
+
+.btn-appointment:hover {
+    background-color: #11cec4;
+    border-color: #11cec4;
+    fill: #11cec4;
+}
+
+.btn-appointment:active {
+    background-color: #1fe2d8;
+    border-color: #21dad0;
+    fill: #11cec4;
+}
+
+@media (min-width: 768px) {
+    .btn-appointment {
+        min-width: 170px;
+    }
+}
+
+
+.btn-menu-responsive{
+    align-self: center;
+    background-color: #fff;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+    border-style: solid;
+    border-color: rgb(12, 194, 201);
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .1) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: #41403e;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Neucha, sans-serif;
+    font-size: 1rem;
+    line-height: 23px;
+    outline: none;
+    padding: .75rem;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn-menu-responsive:hover {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+}
+
+.btn-menu-responsive:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+.btn-menu-responsive {
+    background-color: transparent;
+    color: #00d1a4;
+    outline: 0;
+    box-sizing: border-box;
+
+
+}
+
+@media (max-width: 768px) {
+    .logo_nabvar {
+        width: 60px;
+        filter: hue-rotate(120deg);
+    }
+
+    .header_section {
+        height: 30vh;
+    }
+}
+
+.menu-mobile-barber{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
